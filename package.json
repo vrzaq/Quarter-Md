@@ -41,7 +41,7 @@
     "youtube-search-api": "^1.2.1",
     "yt-search": "^2.10.4",
     "ytdl-core": "^4.11.5"
-  }
+  },
   "engines": {
     "node": ">=18",
     "npm": "9.x"
