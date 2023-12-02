@@ -1,13 +1,13 @@
 # Quarter-Md
 ## ▼ OPSI PLUGIN
 
-```this.command = []
-this.parameter = ''
-this.description = ''
-this.category = ''
-this.execute = async () => { }
-this.branch = async () => { }
-this.costume = async () => { }
+```this.command = []```
+```this.parameter = ''```
+```this.description = ''```
+```this.category = ''```
+```this.execute = function```
+```this.branch = function```
+```this.costume = function```
 this.public = false
 this.function = false
 this.exp = 0
