@@ -1,7 +1,7 @@
 # Quarter-Md
 ### ▼ 𝙾𝙿𝚃𝙸𝙾𝙽𝚂 𝙿𝙻𝚄𝙶𝙸𝙽 𝙲𝙾𝙼𝙼𝙰𝙽𝙳
 
-```this.command = []
+```this.command = []```
 this.parameter = ''
 this.description = ''
 this.category = ''
