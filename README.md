@@ -12,22 +12,22 @@
 ```this.function = Boolean```
 ```this.exp = Number```
 ```this.editor = {```
-    ```exclusive: {```
-        ```type: 'add',```
-        ```index: 1```
-    ```},```
-    ```experiment:  false,```
-    ```beta: false,```
+```    exclusive: {```
+```        type: 'add',```
+```        index: 1```
+```    ,```
+```    experiment:  false,```
+```    beta: false,```
 ```};```
 ```this.options: {```
-    ```permission: 0,```
-    ```setup: {```
-        ```group: false,```
-        ```private: false,```
-        ```premium: false,```
-        ```mods: false,```
-    ```},```
-    ```prefix: ''```
+```    permission: 0,```
+```    setup: {```
+```        group: false,```
+```        private: false,```
+```        premium: false,```
+```        mods: false,```
+```    },```
+```    prefix: ''```
 ```};```
 
 - **permission: 0** [//all]
@@ -36,11 +36,11 @@
 - **permission: 3** [botAdmin]
 
 ```const properties = {``` 
-  ```newWASocket,```
-  ```db,```
-  ```store,```
-  ```Function,```
-  ```attribute```
+```  newWASocket,```
+```  db,```
+```  store,```
+```  Function,```
+```  attribute```
 ```};```
 
 ```constructor(m, sock, properties)```
