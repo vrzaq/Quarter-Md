@@ -4,7 +4,7 @@
 ### Contoh isi Pada Fungsi Opsi Plugin
 this.command = [ 'ping' ]
 this.parameter = 'silahkan tag seseorang atau reply chat nya!'
-this.description = 'Follow https://github.com/vrzaq'
+this.description = 'https://github.com/vrzaq'
 this.category = 'other'
 this.public = true || false
 this.function = true || false
@@ -13,8 +13,8 @@ this.exp = 0
 ### Contoh buat fitur (Execute)
 this.execute = async () => {
     if(m.mentions ? m.mentions[0] : m.quoted.participant) {
-        return m.reply(`Pengguna @${m.sender.split(`@`)[0]}, Telah ngeping kamu silahkan cek pesan pribadi dari bot.`).then(() => {
-        return sock.sendMessage(m.mentions ? m.mentions[0] : m.quoted.participant, { text: `ping\n\ndari @${m.sender.split("@")[0]}, Pesan ini di teruskan oleh bot whatsapp, Jika Ingin merespon silahkan chat orang yang di tag tersebut.`, mentions: [m.quoted.participant, m.sender] })
+        return m.reply('Pengguna tersebut, Telah ngeping kamu silahkan cek pesan pribadi dari bot.').then(() => {
+        return sock.sendMessage(m.mentions ? m.mentions[0] : m.quoted.participant, { text: 'ping\n\n, Pesan ini di teruskan oleh bot whatsapp.' })
     } else {
         throw m.reply(this.parameter)
     };
