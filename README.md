@@ -1,46 +1,46 @@
 # Quarter-Md
 ## ▼ OPSI PLUGIN
 
-```this.command = []```
-```this.parameter = ''```
-```this.description = ''```
-```this.category = ''```
-```this.execute = function```
-```this.branch = function```
+```this.command = Object```
+```this.parameter = String```
+```this.description = String```
+```this.category = String```
+```this.execute = Function```
+```this.branch = Functio```
 ```this.costume = function```
-this.public = false
-this.function = false
-this.exp = 0
-this.editor = {
-    exclusive: {
-        type: 'add',
-        index: 1
-    },
-    experiment:  false,
-    beta: false,
-};
-this.options: {
-    permission: 0,
-    setup: {
-        group: false,
-        private: false,
-        premium: false,
-        mods: false,
-    },
-    prefix: ''
-};```
+```this.public = Boolean```
+```this.function = Boolean```
+```this.exp = Number```
+```this.editor = {```
+    ```exclusive: {```
+        ```type: 'add',```
+        ```index: 1```
+    ```},```
+    ```experiment:  false,```
+    ```beta: false,```
+```};```
+```this.options: {```
+    ```permission: 0,```
+    ```setup: {```
+        ```group: false,```
+        ```private: false,```
+        ```premium: false,```
+        ```mods: false,```
+    ```},```
+    ```prefix: ''```
+```};```
 
-- *permission: 0* ```//all```
-- *permission: 1* ```//owner```
-- *permission: 2* ```//admin```
-- *permission: 3* ```//botAdmin```
+- **permission: 0** [//all]
+- **permission: 1**  [owner]
+- **permission: 2** [admin]
+- **permission: 3** [botAdmin]
 
-```const properties = { 
-  newWASocket, 
-  db, 
-  store, 
-  Function, 
-  attribute
-};
+```const properties = {``` 
+  ```newWASocket,```
+  ```db,```
+  ```store,```
+  ```Function,```
+  ```attribute```
+```};```
 
-constructor(m, sock, properties)```
+```constructor(m, sock, properties)```
