@@ -43,4 +43,4 @@
 ```  attribute```
 ```};```
 
-```constructor(m, sock, properties)```
+``constructor(m, sock, properties)``
