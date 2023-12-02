@@ -1,1 +1,9 @@
-{}
+{
+  "authorName": "your_name",
+  "authorNumber": [
+    "your_number"
+  ],
+  "mods": [],
+  "prems": [],
+  "botName": "Quarter-MD",
+}
